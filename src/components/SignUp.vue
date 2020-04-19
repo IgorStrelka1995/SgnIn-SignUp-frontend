@@ -6,7 +6,7 @@
                 <i class="error-field" v-for="(error, index) in errors" :key="index">{{ error ? $t(error.name) : null }}</i>
             </div>
             <div class="form-group">
-                <input id="sing-up-surname" type="text" name="surname" v-model="surname" class="form-control" :placeholder="$t('name')">
+                <input id="sing-up-surname" type="text" name="surname" v-model="surname" class="form-control" :placeholder="$t('surname')">
                 <i class="error-field" v-for="(error, index) in errors" :key="index">{{ error ? $t(error.surname) : null }}</i>
             </div>
             <div class="form-group">
